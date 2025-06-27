@@ -1,0 +1,89 @@
+body{
+    padding: 0;
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*===== Header =====*/
+#header{
+    position: fixed;
+    top:0px;
+    left: 0px;
+    z-index:500;
+    width: 100%;
+    height: 80px;
+    background-image: url(pineCityZooImages/images/wood-bg.png);
+    background-repeat: repeat-x;
+}
+
+#header img{
+    display: block;
+    margin: auto;
+    height: 70%;
+    padding-top: 15px;
+}
+
+/*===== Top-tabs =====*/
+#tabs-top{
+    position: fixed;
+    top: 80px;
+    left: 0;
+    z-index: 500;
+    width: 100%;
+    height: 5%;
+    background-color: darkgreen;
+}
+
+#tabs-top a{
+    float: left;
+    display: block;
+    width: 33%;
+    height: 35%;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 12px;
+}
+
+/*===== Main.home =====*/
+#Main-home{
+    margin-top: 90px;
+
+}
+
+/*===== Bottom Tabs =====*/
+#tabs-bottom{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 500;
+    width: 100%;
+    height: 5%;
+    background-color:forestgreen;
+}
+
+#tabs-bottom a{
+    float: left;
+    display: block;
+    width: 50%;
+    height: 35px;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 12px;
+}
+
+/*===== Main =====*/
+#Main{
+z-index: 1000;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-repeat: repeat-x;
+}
+
+#content{
+    padding: top 1px;
+    padding-bottom: 50px;
+}
