@@ -48,7 +48,6 @@ body{
 /*===== Main.home =====*/
 #Main-home{
     margin-top: 90px;
-
 }
 
 /*===== Bottom Tabs =====*/
@@ -76,8 +75,7 @@ body{
 
 /*===== Main =====*/
 #Main{
-margin-top: 41px;
-background-image: url(pineCityZooImages/images/map-blur.png);
+margin-top: 41px;;
 background-repeat: repeat-y;
 }
 
@@ -96,4 +94,29 @@ a.info-box{
     margin: auto;
     margin-top: 12px;
     padding: 1px;
+}
+
+.info-box img{
+    height: 70px;
+    float: left;
+    margin: 10px;
+    float:left
+}
+.info-box h3{
+    margin-bottom: 0;
+    padding: 0;
+    color: #572800;
+    width: 90%;
+}
+
+.info-box p{
+    margin: 0;
+    padding: 0;
+    color: #131313;
+    width: 90%;
+}
+.info-box img.right{
+    float: right;
+    margin-top: 25px;
+    height: 40px;
 }
