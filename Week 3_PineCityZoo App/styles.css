@@ -74,8 +74,9 @@ body{
 }
 
 /*===== Main =====*/
-#Main{
-margin-top: 41px;;
+#main{
+margin-top: 119px;
+background: url('pineCityZooImages/images/map-blur.png');
 background-repeat: repeat-y;
 }
 
